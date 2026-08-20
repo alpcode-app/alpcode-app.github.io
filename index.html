@@ -7,9 +7,7 @@
     <meta name="description" content="Alpcode – Ihr Partner für professionelle App-Entwicklung und maßgeschneiderte Softwarelösungen.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/logo.png" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -22,6 +20,8 @@
             <nav class="nav">
                 <a href="#ueber-uns">Über uns</a>
                 <a href="#leistungen">Leistungen</a>
+                <a href="#angebot">Angebot</a>
+                <a href="#projekte">Projekte</a>
                 <a href="#kontakt">Kontakt</a>
             </nav>
             <button class="nav-toggle" aria-label="Menü öffnen">
@@ -35,9 +35,15 @@
     <!-- Hero -->
     <section class="hero">
         <div class="container hero-content">
+            <div class="hero-offer-pill">
+                🚀 Prototyp in 1–2 Tagen &ndash; ab 499 €
+            </div>
             <h1>Professionelle Softwarelösungen<br>mit Leidenschaft entwickelt</h1>
             <p class="hero-sub">Wir sind Ihr Partner für erstklassige App-Entwicklung – mit höchstem Qualitätsanspruch und dem Fokus auf Ihre Zufriedenheit.</p>
-            <a href="#kontakt" class="btn">Kontakt aufnehmen</a>
+            <div class="hero-actions">
+                <a href="#angebot" class="btn">Zum Angebot</a>
+                <a href="#kontakt" class="btn btn--ghost">Kontakt aufnehmen</a>
+            </div>
         </div>
     </section>
 
@@ -89,6 +95,94 @@
         </div>
     </section>
 
+    <!-- Angebot -->
+    <section id="angebot" class="section">
+        <div class="container">
+            <h2>Ihr Einstieg in die App-Entwicklung</h2>
+            <p class="section-sub">Keine langen Planungsphasen, kein großes Risiko – in 1 bis 2 Tagen sehen Sie, was möglich ist.</p>
+            <div class="offer-grid">
+
+                <div class="offer-card offer-card--highlight">
+                    <div class="offer-badge">Empfohlen</div>
+                    <div class="offer-icon">🚀</div>
+                    <h3>Pilotprojekt &amp; Prototyp</h3>
+                    <div class="offer-price">
+                        <span class="offer-price-from">ab</span>
+                        <span class="offer-price-amount">499 €</span>
+                        <span class="offer-price-note">zzgl. gesetzl. MwSt.*</span>
+                    </div>
+                    <ul class="offer-features">
+                        <li>✓ Funktionsfähiger Prototyp in 1–2 Tagen</li>
+                        <li>✓ Umsetzung Ihrer Kernidee als klickbares Demo</li>
+                        <li>✓ iOS &amp; Android oder Web – Ihre Wahl</li>
+                        <li>✓ Persönliches Briefing &amp; Konzeptabstimmung</li>
+                        <li>✓ Anschließende Testphase inklusive</li>
+                        <li>✓ Transparent: Festpreis, keine versteckten Kosten</li>
+                    </ul>
+                    <a href="#kontakt" class="btn offer-btn">Jetzt anfragen</a>
+                    <p class="offer-disclaimer">* Gemäß § 19 UStG (Kleinunternehmerregelung) wird aktuell keine Umsatzsteuer berechnet.</p>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-icon">🛠️</div>
+                    <h3>Individuelle
+Software­lösung</h3>
+                    <div class="offer-price">
+                        <span class="offer-price-from">auf</span>
+                        <span class="offer-price-amount">Anfrage</span>
+                    </div>
+                    <ul class="offer-features">
+                        <li>✓ Vollständige App oder Webanwendung</li>
+                        <li>✓ Skalierbare Architektur &amp; sauberer Code</li>
+                        <li>✓ Langfristige Betreuung &amp; Wartung möglich</li>
+                        <li>✓ Integration in bestehende Systeme</li>
+                        <li>✓ Individuelles Angebot nach Ihren Anforderungen</li>
+                    </ul>
+                    <a href="#kontakt" class="btn offer-btn offer-btn--outline">Anfrage stellen</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekte -->
+    <section id="projekte" class="section">
+        <div class="container">
+            <h2>Aktuelle Projekte</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📰</div>
+                        <div>
+                            <h3>Gute News</h3>
+                            <span class="project-category">News &amp; Magazine</span>
+                        </div>
+                    </div>
+                    <p>Positive Nachrichten aus aller Welt – täglich frisch und auf Deutsch. Die App liefert ermutigende Meldungen und zeigt, was in der Welt Gutes passiert.</p>
+                    <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.gutenachrichten.app" target="_blank" rel="noopener">
+                        <img src="assets/google-play-badge.png" alt="Jetzt bei Google Play">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🛍️</div>
+                        <div>
+                            <h3>Jeniz Afro Style Shop</h3>
+                            <span class="project-category">Shopping</span>
+                        </div>
+                    </div>
+                    <p>Afroshop in Kempten: Afrikanische Lebensmittel, Kunsthaar, Echthaar &amp; Beauty-Produkte – bequem online bestellen. Erstkundenrabatt &amp; kostenloser Versand ab 70 €.</p>
+                    <a class="play-badge" href="https://play.google.com/store/apps/details?id=de.jenizafrostyleshop.jeniz_afro_style_shop" target="_blank" rel="noopener">
+                        <img src="assets/google-play-badge.png" alt="Jetzt bei Google Play">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- Kontakt -->
     <section id="kontakt" class="section">
         <div class="container">
@@ -115,10 +209,110 @@
                 <img src="assets/logo.png" alt="Alpcode Logo">
             </div>
             <p>&copy; 2026 Alpcode – App Development. Alle Rechte vorbehalten.</p>
+            <div class="footer-links">
+                <button class="footer-link" onclick="openModal('impressum-modal')">Impressum</button>
+                <span class="footer-link-sep">·</span>
+                <button class="footer-link" onclick="openModal('datenschutz-modal')">Datenschutzerklärung</button>
+            </div>
         </div>
     </footer>
 
+    <!-- Impressum Modal -->
+    <div id="impressum-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="impressum-title">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('impressum-modal')" aria-label="Schließen">&times;</button>
+            <h2 id="impressum-title">Impressum</h2>
+            <h3>Angaben gemäß § 5 TMG</h3>
+            <p>
+                Alpcode – App Development<br>
+                Sebastian Keidler<br>
+                Lindauerstraße 86<br>
+                87439 Kempten (Allgäu)
+            </p>
+            <h3>Unternehmensform &amp; Steuer</h3>
+            <p>
+                Rechtsform: Einzelunternehmen<br>
+                Steuernummer: 127/235/31150<br>
+                Gemäß § 19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung).
+            </p>
+            <h3>Kontakt</h3>
+            <p>
+                Telefon: <a href="tel:+4915756578616">+49 157 5657 8616</a><br>
+                E-Mail: <a href="mailto:alpcode@outlook.de">alpcode@outlook.de</a>
+            </p>
+            <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
+            <p>
+                Sebastian Keidler<br>
+                Lindauerstraße 86<br>
+                87439 Kempten (Allgäu)
+            </p>
+            <h3>Haftung für Inhalte</h3>
+            <p>Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+            <h3>Haftung für Links</h3>
+            <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
+            <h3>Urheberrecht</h3>
+            <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
+            <h3>Streitschlichtung (VSBG &amp; ODR)</h3>
+            <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>.</p>
+            <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen (§ 36 VSBG).</p>
+        </div>
+    </div>
+
+    <!-- Datenschutzerklärung Modal -->
+    <div id="datenschutz-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="datenschutz-title">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('datenschutz-modal')" aria-label="Schließen">&times;</button>
+            <h2 id="datenschutz-title">Datenschutzerklärung</h2>
+            <h3>1. Verantwortlicher</h3>
+            <p>
+                Sebastian Keidler<br>
+                Lindauerstraße 86, 87439 Kempten (Allgäu)<br>
+                E-Mail: <a href="mailto:alpcode@outlook.de">alpcode@outlook.de</a>
+            </p>
+            <h3>2. Erhebung und Speicherung personenbezogener Daten</h3>
+            <p>Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden temporär in einem sogenannten Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert:</p>
+            <ul>
+                <li>IP-Adresse des anfragenden Rechners</li>
+                <li>Datum und Uhrzeit des Zugriffs</li>
+                <li>Name und URL der abgerufenen Datei</li>
+                <li>Website, von der aus der Zugriff erfolgt (Referrer-URL)</li>
+                <li>Verwendeter Browser und ggf. das Betriebssystem Ihres Rechners</li>
+            </ul>
+            <p>Die genannten Daten werden zur Gewährleistung eines reibungslosen Verbindungsaufbaus und zur Auswertung der Systemsicherheit und -stabilität verarbeitet (Art. 6 Abs. 1 lit. f DSGVO).</p>
+            <h3>3. Kontaktaufnahme</h3>
+            <p>Wenn Sie uns per E-Mail oder Telefon kontaktieren, werden Ihre Angaben zur Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
+            <h3>4. Ihre Rechte</h3>
+            <p>Sie haben das Recht auf Auskunft über die bei uns zu Ihrer Person gespeicherten Daten, auf Berichtigung, Löschung, Einschränkung der Verarbeitung sowie auf Datenübertragbarkeit. Zur Ausübung dieser Rechte wenden Sie sich bitte an: <a href="mailto:alpcode@outlook.de">alpcode@outlook.de</a></p>
+            <p>Zudem haben Sie das Recht, sich bei der zuständigen Aufsichtsbehörde zu beschweren. Die zuständige Aufsichtsbehörde für Bayern ist der Bayerische Landesbeauftragte für den Datenschutz (BayLfD).</p>
+            <h3>5. Änderungen dieser Datenschutzerklärung</h3>
+            <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht. Stand: August 2026.</p>
+        </div>
+    </div>
+
     <script>
+        function openModal(id) {
+            const modal = document.getElementById(id);
+            modal.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('open');
+            document.body.style.overflow = '';
+        }
+
+        document.querySelectorAll('.modal-overlay').forEach(modal => {
+            modal.addEventListener('click', e => {
+                if (e.target === modal) closeModal(modal.id);
+            });
+        });
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') {
+                document.querySelectorAll('.modal-overlay.open').forEach(m => closeModal(m.id));
+            }
+        });
+
         // Mobile nav toggle
         const toggle = document.querySelector('.nav-toggle');
         const nav = document.querySelector('.nav');
